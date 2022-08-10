@@ -4,8 +4,7 @@ Console.Write("Введите второе число:");
 int b = Convert.ToInt32(Console.ReadLine());
 int max = a;
 int min = b;
-if (max < min)
-{
+if (max < min) {
     max = b;
     min = a;   
 }
