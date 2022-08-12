@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.Write("Введите трёхзначное число:");
+string userInput = Console.ReadLine();
+Console.Write(userInput[1]);
+
